@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    padding: 10px 17px;
+    flex:auto;
+    background-color: darkgreen;
+    color: honeydew;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+}
+
+header nav{
+    float:inline-start;
+    margin: 7px 2px;
+}
+
+header nav ul li{
+     display: inline-flex;
+     justify-content: space-between;
+
+}
+
+main{
+    flex: auto;
+}
+#Me{
+    
+    background-image: url(../images/PikPng.com_headshot-png_1547512.png);
+    height: 1165px;
+    width: 85%;
+    background-size:cover;
+    background-position:center;
+    flex:auto;
+    color:gray;
+    float: right;
+}
+aside{
+    float: left;
+    background-image: url(../images/PikPng.com_cross-silhouette-png_643796.png);
+    height: 985px;
+    background-size:contain;
+    background-position-x: left;
+    width: 15%;
+}
+
+footer{
+    display: inline-flex;
+    padding: 0px 0px;
+    flex:auto;
+    background-color: darkgreen;
+    color: honeydew;
+}
+footer nav ul li{
+    display: inline-flex;
+    justify-content: space-between;
+
+}
