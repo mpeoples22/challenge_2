@@ -28,7 +28,7 @@ main{
     flex: auto;
 }
 #Me{
-    
+
     background-image: url(../images/PikPng.com_headshot-png_1547512.png);
     height: 1185px;
     width: 80%;
@@ -36,6 +36,11 @@ main{
     background-position:center;
     flex:auto;
     color:gray;
+    float: right;
+}
+#challenge_oneImg{
+    height: 310px;
+    width: 210px;
     float: right;
 }
 aside{
@@ -48,13 +53,18 @@ aside{
 }
 
 footer{
-    flex:content;
-    padding: 0px 0px;
+    width: 80%;
+    padding: 30px 30px;
     background-color: darkgreen;
     color: honeydew;
+    float:right;
+}
+footer p{
+    text-align: center;
 }
 footer nav ul li{
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
 
 }
