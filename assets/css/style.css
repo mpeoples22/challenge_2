@@ -27,6 +27,9 @@ header nav ul li{
 main{
     flex: auto;
 }
+main img{
+    float: right;
+}
 #Me{
 
     background-image: url(../images/PikPng.com_headshot-png_1547512.png);
@@ -43,6 +46,11 @@ main{
     width: 210px;
     float: right;
 }
+article div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: cadetblue;
+}
 aside{
     float: left;
     background-image: url(../images/PikPng.com_cross-silhouette-png_643796.png);
@@ -53,7 +61,7 @@ aside{
 }
 
 footer{
-    width: 80%;
+    width: 100%;
     padding: 30px 30px;
     background-color: darkgreen;
     color: honeydew;
