@@ -44,6 +44,20 @@ main{
     float: right;
     flex: auto;
 }
+article p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+color:black;
+}
+article h2{
+    color: black;
+}
+article a{
+    color:blue;
+}
+a{
+    color: chartreuse;
+}
 aside{
     float: left;
     background-image: url(../images/PikPng.com_cross-silhouette-png_643796.png);
