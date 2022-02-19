@@ -42,7 +42,30 @@ main{
     height: 310px;
     width: 210px;
     float: right;
+    border:black;
+    border-spacing: 7px;
     flex: auto;
+}
+#challenge16{
+    height: 310px;
+    width: 210px;
+    border-radius: 5px;
+    float: right;
+    flex: auto;
+}
+article p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+color:black;
+}
+article h2{
+    color:gray;
+}
+article a{
+    color:blue;
+}
+a{
+    color: chartreuse;
 }
 aside{
     float: left;
