@@ -42,6 +42,15 @@ main{
     height: 310px;
     width: 210px;
     float: right;
+    border:black;
+    border-spacing: 7px;
+    flex: auto;
+}
+#challenge16{
+    height: 310px;
+    width: 210px;
+    border-radius: 5px;
+    float: right;
     flex: auto;
 }
 article p{
